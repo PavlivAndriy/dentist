@@ -6,7 +6,7 @@ public class Dentist {
     private String nicknameDentist;
     private String emailDentist;
     private int experienceDentist;
-    private String adressDentist;
+    private String addressDentist;
     private String phoneDentist;
     private String serviceDentist;
 
@@ -30,8 +30,8 @@ public class Dentist {
         this.experienceDentist = experienceDentist;
     }
 
-    public void setAdressDentist(String adressDentist) {
-        this.adressDentist = adressDentist;
+    public void setAddressDentist(String addressDentist) {
+        this.addressDentist = addressDentist;
     }
 
     public void setPhoneDentist(String phoneDentist) {
@@ -42,6 +42,14 @@ public class Dentist {
         this.serviceDentist = serviceDentist;
     }
 
+    public String getNicknameDentist() {
+        return nicknameDentist;
+    }
+
+    public String getServiceDentist() {
+        return serviceDentist;
+    }
+
     public String toString() {
         return getClass().getSimpleName() + "№" + this.idDentist +
                 " : ( idUser = " + this.idDentist +
@@ -49,7 +57,7 @@ public class Dentist {
                 " , nicknameDentist = " + this.nicknameDentist +
                 " , emailDentist = " + this.emailDentist +
                 " , experienceDentist = " + this.experienceDentist +
-                " , adressDentist = " + this.adressDentist +
+                " , addressDentist = " + this.addressDentist +
                 " , phoneDentist = " + this.phoneDentist+
                 " , ServiceDentist = " + this.serviceDentist +" ).";
     }
