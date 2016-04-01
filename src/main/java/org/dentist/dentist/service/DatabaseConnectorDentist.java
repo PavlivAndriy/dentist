@@ -54,9 +54,9 @@ public class DatabaseConnectorDentist {
                     dentist.setIdDentist(resultSet.getInt("idDentist"));
                     dentist.setNameDentist(resultSet.getString("nameDentist"));
                     dentist.setNicknameDentist(resultSet.getString("nicknameDentist"));
-                    dentist.setNicknameDentist(resultSet.getString("emailDentist"));
+                    dentist.setEmailDentist(resultSet.getString("emailDentist"));
                     dentist.setExperienceDentist(resultSet.getInt("experienceDentist"));
-                    dentist.setAdressDentist(resultSet.getString("adressDentist"));
+                    dentist.setAddressDentist(resultSet.getString("adressDentist"));
                     dentist.setPhoneDentist(resultSet.getString("phoneDentist"));
                     dentist.setServiceDentist(resultSet.getString("serviceDentist"));
                     System.out.println(dentist);
